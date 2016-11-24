@@ -9,7 +9,9 @@
 
 define('academy_client', '1.0');
 
+if(file_exists(TL_ROOT . '/system/modules/contao_academy_client/classes/AcademyHelper.php')):
 $GLOBALS['TL_HOOKS']['outputBackendTemplate'][] = array('AcademyHelper', 'HeaderVideohandbuch');
+endif;
 
 // CSS und JS fuer Backendview Academy
 if (TL_MODE == 'BE')
