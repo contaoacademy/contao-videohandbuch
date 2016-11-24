@@ -1,0 +1,45 @@
+<div id="tl_buttons">
+    <a href="contao/main.php?do=Videohandbuch" class="header_back" title="<?=$this->backTitle; ?>" accesskey="b"
+       onclick="Backend.getScrollOffset();">Zurück zur Kategorieübersicht</a>
+</div>
+<h2 class="sub_headline"><?=$this->Kategoriename ?></h2>
+
+<div class="tl_listing_container" id="tl_contaoacademy">
+
+    <?php if (!$this->Videos): ?>
+        <p>KEINE INHALTE VERFÜGBAR!</p>
+    <?php else: ?>
+
+        <h3>Bitte ein Video auswählen:</h3>
+        <ol class="ca-list">
+            <?php foreach ($this->Videos as $objVideo): ?>
+                <li class="ca-item video_<?= $objVideo->videoid ?>"">
+                <div class="video-item">
+                    <a data-lightbox="inline" data-videoid="<?= $objVideo->videoid ?>"
+                       class="video-open"
+                       href="#vimeo_<?= $objVideo->videoid ?>"><?=$objVideo->headline ?>
+                        (<span><?=$objVideo->dauer ?> min</span>)</a>
+                    <div style="display: none;">
+                        <div class="modal-popup" id="vimeo_<?= $objVideo->videoid ?>">
+                            <h3><?=$objVideo->headline ?></h3>
+                            <div class='embed-container'>
+                                <?php //Platzhalter iframe ?>
+                            </div>
+
+                            <?php if ($objVideo->content): ?>
+                                <div class="ca_content">
+                                    <?php foreach ($objVideo->content as $objContent): ?>
+                                        <div class="ca_text">
+                                            <h3><?=$objContent->headline ?></h3>
+                                            <?=base64_decode($objContent->text) ?>
+                                        </div>
+                                    <?php endforeach; ?>
+                                </div>
+                            <?php endif; ?>
+                        </div>
+                    </div>
+                </div>
+                </li>
+            <?php endforeach; ?>
+        </ol>
+    <?php endif; ?>
