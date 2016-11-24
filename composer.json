@@ -1,0 +1,24 @@
+{
+    "name": "contaoacademy/contao-videohandbuch",
+    "description": "",
+    "keywords":["contao", "videohandbuch", "handbuch", "Anwender", "Redakteure"],
+    "type": "contao-module",
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "Christian Feneberg",
+            "email": "support@contao-academy.de"
+        }
+    ],
+    "require": {
+        "php":">=5.4.0",
+        "contao/core":">=3.2,<4",
+    },
+    "extra":{
+        "contao": {
+            "sources":{
+                "": "system/modules/contao_academy_client"
+            }
+        }
+    }
+}
