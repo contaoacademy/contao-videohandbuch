@@ -1,5 +1,5 @@
 <div id="tl_buttons"></div>
-<h2 class="sub_headline">Videohandbuch powered by contao-academy.de</h2>
+<h2 class="sub_headline">Videohandbuch</h2>
 
 <div class="tl_listing_container" id="tl_contaoacademy" >
 	<div class="promoHeader"><?=$this->Banner?></div>
