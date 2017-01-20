@@ -28,7 +28,16 @@
 		// Kategorie gewählt | Liste alle Videos auf
 		if($intID)
 		{
-			$GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/contao_academy_client/assets/academy_vimeo.js|static';
+            if (version_compare(VERSION, '3.5', '<'))
+            {
+                // Code für Versionen < 3.5
+                $GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/contao_academy_client/assets/academy_vimeo.js';
+            }
+            else
+            {
+                // Code für Versionen ab 3.5
+                $GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/contao_academy_client/assets/academy_vimeo.js|static';
+            }
 
 			$this->Template = new \BackendTemplate('be_contao_academy_details');
 			$arrResponse = @AcademyRemote::sendRequest(array('action'=>'details','id'=>$intID));
