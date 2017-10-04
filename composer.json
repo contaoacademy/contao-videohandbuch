@@ -1,6 +1,6 @@
 {
   "name": "contaoacademy/contao-videohandbuch",
-  "description": "",
+  "description": "Contao Open Source CMS Videohandbuch für Anwender",
   "keywords": [
     "contao",
     "videohandbuch",
@@ -13,12 +13,14 @@
   "authors": [
     {
       "name": "Christian Feneberg",
-      "email": "support@contao-academy.de"
+      "email": "support@contao-academy.de",
+      "homepage":"http://www.contao-academy.de"
     }
   ],
   "require": {
-    "php": ">=5.4.0",
-    "contao/core": ">=3.2,<4"
+    "php": ">=5.4",
+    "contao/core-bundle":"~3.2 || ^4.4.1",
+    "contao-community-alliance/composer-plugin":"~2.4 || ~3.0"
   },
   "extra": {
     "contao": {

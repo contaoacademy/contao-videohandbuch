@@ -14,7 +14,6 @@
         <ol class="ca-list">
             <?php foreach ($this->Videos as $objVideo): ?>
                 <li class="ca-item video_<?= $objVideo->videoid ?>"">
-                <div class="video-item">
                     <a data-lightbox="inline" data-videoid="<?= $objVideo->videoid ?>"
                        class="video-open"
                        href="#vimeo_<?= $objVideo->videoid ?>"><?=$objVideo->headline ?>
@@ -38,7 +37,6 @@
                             <?php endif; ?>
                         </div>
                     </div>
-                </div>
                 </li>
             <?php endforeach; ?>
         </ol>

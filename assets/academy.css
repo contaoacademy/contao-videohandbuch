@@ -1,9 +1,15 @@
+#tl_navigation .tl_level_1_group .group-contao_academy {
+    background: url(icon_academy.svg) 3px 2px no-repeat;
+}
+
 .ca-list,
 .ca-item {
     list-style: decimal-leading-zero;
 }
 
 .ca-list {
+	margin: 1em 0;
+	padding: 0;
 }
 
 .ca-item,
@@ -12,12 +18,12 @@
 }
 
 .ca-item a {
-    display: block;
     line-height: 2;
 }
 
 .ca-item {
     border-bottom: 1px solid #e9e9e9;
+    list-style-position: inside;
 }
 
 .ca-item:nth-child(even) {
