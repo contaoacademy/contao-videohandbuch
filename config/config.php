@@ -16,7 +16,7 @@ endif;
 // CSS und JS fuer Backendview Academy
 if (TL_MODE == 'BE')
 {
-	$GLOBALS['TL_CSS'][] = 'system/modules/contao_academy_client/assets/academy.css?v171004||static';
+	$GLOBALS['TL_CSS'][] = 'system/modules/contao_academy_client/assets/academy.css?v171005||static';
 
 	if(\Input::get('id') && \Input::get('do') == 'Videohandbuch') // Detailseite
 	{

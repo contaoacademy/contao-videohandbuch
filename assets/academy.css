@@ -2,6 +2,11 @@
     background: url(icon_academy.svg) 3px 2px no-repeat;
 }
 
+h2.sub_headline {
+    font-size: 2em;
+    margin-left: 12px;
+}
+
 .ca-list,
 .ca-item {
     list-style: decimal-leading-zero;
@@ -63,7 +68,7 @@
     padding:2px 0 3px 20px;
     background-position:left center;
     background-repeat:no-repeat;
-    margin-left:15px;
+    margin-left:18px;
 }
 
 .header_videohandbuch {
