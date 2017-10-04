@@ -7,7 +7,7 @@
  *
  */
 
-define('academy_client', '1.2');
+define('academy_client', '1.1.2');
 
 if(file_exists(TL_ROOT . '/system/modules/contao_academy_client/classes/AcademyHelper.php')):
 $GLOBALS['TL_HOOKS']['outputBackendTemplate'][] = array('AcademyHelper', 'HeaderVideohandbuch');
