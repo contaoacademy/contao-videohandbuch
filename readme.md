@@ -1,11 +1,11 @@
-# Videohandbuch für Contao
+# Videohandbuch für Contao #
 
 Handbuch für Anwender direkt ins Backend von Contao integriert.
 Alle wichtigen Funktionen erklärt. Perfekt als Kundenschulung!
 Das erste Video Handbuch für Anwender direkt im Backend von Contao.
 Hilfe für alle Anwender in Form von Videos.
 
-##Übersicht der Kategorien
+## Übersicht der Kategorien ##
 
 1. Einstieg in Contao
 2. Seitenstruktur verwalten
@@ -20,7 +20,7 @@ Hilfe für alle Anwender in Form von Videos.
 11. Vildbearbeitung
 12. Suchmaschinenoptimierung (SEO)
 
-** Die Demoversion umfasst 10 Videos. **
+**Die Demoversion umfasst 10 Videos die sofort nach der Installation angesehen werden können.**
 
 Zur Freischaltung aller 88 Videos ist eine Lizenz der Contao Academy nötig.
 mehr unter: https://contao-academy.de/videohandbuch-fuer-anwender
