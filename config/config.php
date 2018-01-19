@@ -16,7 +16,7 @@ endif;
 // CSS und JS fuer Backendview Academy
 if (TL_MODE == 'BE')
 {
-	$GLOBALS['TL_CSS'][] = 'system/modules/contao_academy_client/assets/academy.css?v171005||static';
+	$GLOBALS['TL_CSS'][] = 'system/modules/contao_academy_client/assets/academy.css||static';
 
 	if(\Input::get('id') && \Input::get('do') == 'Videohandbuch') // Detailseite
 	{
@@ -44,7 +44,7 @@ if (TL_MODE == 'BE')
         else
         {
             // Code für Versionen ab 4.4
-            $jquery_src = 'assets/jquery/js/jquery.min.js';
+            $jquery_src = 'assets/jquery/js/jquery.min.js||static';
             $GLOBALS['TL_JAVASCRIPT'][] = 'assets/colorbox/js/colorbox.min.js';
             $GLOBALS['TL_CSS'][] = 'assets/colorbox/css/colorbox.min.css||static';
         }
