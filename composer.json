@@ -9,12 +9,12 @@
     "Redakteure"
   ],
   "type": "contao-module",
-  "license": "LGPL-3.0+",
+  "license": "LGPL-3.0-or-later",
   "authors": [
     {
       "name": "Christian Feneberg",
       "email": "support@contao-academy.de",
-      "homepage":"http://www.contao-academy.de"
+      "homepage":"https://www.contao-academy.de"
     }
   ],
   "require": {
