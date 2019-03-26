@@ -1,6 +1,6 @@
 {
   "name": "contaoacademy/contao-videohandbuch",
-  "description": "Ein Handbuch für Anwender und Redakteure, dass direkt ins Backend von Contao integriert wird. Alle wichtigen Funktionen per Video erklärt.",
+  "description": "Contao Open Source CMS Videohandbuch für Anwender",
   "keywords": [
     "contao",
     "videohandbuch",
