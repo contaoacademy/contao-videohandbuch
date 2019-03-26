@@ -1,6 +1,6 @@
 {
   "name": "contaoacademy/contao-videohandbuch",
-  "description": "Contao Open Source CMS Videohandbuch für Anwender",
+  "description": "Ein Handbuch für Anwender und Redakteure, dass direkt ins Backend von Contao integriert wird. Alle wichtigen Funktionen per Video erklärt.",
   "keywords": [
     "contao",
     "videohandbuch",
@@ -14,11 +14,11 @@
     {
       "name": "Christian Feneberg",
       "email": "support@contao-academy.de",
-      "homepage":"https://www.contao-academy.de"
+      "homepage":"https://contao-academy.de"
     }
   ],
   "require": {
-    "php": ">=5.4",
+    "php": ">=5.6",
     "contao/core-bundle":"~3.2 || ^4.4.1",
     "contao-community-alliance/composer-plugin":"~2.4 || ~3.0"
   },

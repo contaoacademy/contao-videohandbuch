@@ -31,12 +31,14 @@ class AcademyRemote extends \System
 
 		if(function_exists("curl_init"))
 		{
+		    $curlversion = curl_version();
 			$ch = curl_init($url_array['scheme']."://".$url_array['host'].$url_array['path']);
 			curl_setopt($ch, CURLOPT_POST, 1);
 			curl_setopt($ch, CURLOPT_POSTFIELDS, $url_array['query']);
 			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
 			curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 2);
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
+            curl_setopt($ch, CURLOPT_USERAGENT, 'cURL/'.$curlversion['version'].' '.$curlversion["host"].' Videohandbuch - '. \Environment::get("httpHost").' / Contao ' . VERSION.'.'.BUILD);
 			curl_setopt($ch, CURLOPT_TIMEOUT, 45);
 			$strResponse = curl_exec($ch);
 
