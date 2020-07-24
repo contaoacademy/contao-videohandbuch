@@ -10,12 +10,12 @@
 <?php foreach($this->Kategorien as $objKategorie):?>
     <?php
     //Check Contao 4
-      if (version_compare(VERSION, '4.4', '<') && strpos($objKategorie->title, 'Contao 3.5') === true): ?>
+      if (version_compare(VERSION, '4.4', '<') && (strpos($objKategorie->title, 'Contao 3.5') == true)): ?>
 	<li class="ca-item cat_<?= $objKategorie->id?>">
 		<a href="<?= \Backend::addToUrl('id=' . $objKategorie->id) . '&catname=' . urlencode($objKategorie->title) ?>"><?= $objKategorie->title ?></a>
 	</li>
       <?php endif; ?>
-     <?php if (version_compare(VERSION, '4.3', '>') && strpos($objKategorie->title, 'Contao 3.5') === false): ?>
+     <?php if (version_compare(VERSION, '4.3', '>') && (strpos($objKategorie->title, 'Contao 3.5') == false)): ?>
           <li class="ca-item cat_<?= $objKategorie->id?>">
               <a href="<?= \Backend::addToUrl('id=' . $objKategorie->id) . '&catname=' . urlencode($objKategorie->title) ?>"><?= $objKategorie->title ?></a>
           </li>
