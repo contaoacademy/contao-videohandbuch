@@ -1,26 +1,27 @@
 # Videohandbuch für Contao #
 
-Handbuch für Anwender direkt ins Backend von Contao integriert.
+Handbuch für Redakteure direkt ins Backend von Contao integriert.
 Alle wichtigen Funktionen erklärt. Perfekt als Kundenschulung!
-Das erste Video Handbuch für Anwender direkt im Backend von Contao.
-Hilfe für alle Anwender in Form von Videos.
 
 ## Übersicht der Kategorien ##
 
-1. Einstieg in Contao
-2. Seitenstruktur verwalten
-3. Artikel verwalten
-4. Inhalte verwalten
-5. Rich Text Editor (TinyMCE)
-6. Weitere Inhaltselemente
-7. Dateiverwaltung
-8. Nachrichten und Bloggen
-9. Kalender / Events
-10. Sonstige Funktionen
-11. Vildbearbeitung
-12. Suchmaschinenoptimierung (SEO)
+1. Crashkurs für Redakteure
+2. Einstieg und Orientierung
+3. Seitenstruktur verwalten
+4. Artikel verwalten
+5. Inhalte mit Contao verwalten
+6. Rich Text Editor (TinyMCE)
+7. Weitere Inhaltselemente nutzen
+8. Dateiverwaltung
+9. Bildbearbeitung
+10. Nachrichten und Blogs verwalten
+11. Events und Kalender verwalten
+12. Sonstige Funktionen und Module
+13. Suchmaschinenoptimierung (SEO)
+14. Häufig gestellte Fragen und Probleme
+15. Tipps und Hinweise für Redakteure
 
-**Die Demoversion umfasst 10 Videos die sofort nach der Installation angesehen werden können.**
+**Die Demoversion umfasst 10 Videos, die sofort nach der Installation angesehen werden können.**
 
-Zur Freischaltung aller 88 Videos ist eine Lizenz der Contao Academy nötig.
-mehr unter: https://contao-academy.de/videohandbuch-fuer-anwender
+Zur Freischaltung aller 116 Videos ist eine Lizenz der Contao Academy nötig.
+Mehr unter: https://contao-academy.de/videohandbuch-fuer-anwender
