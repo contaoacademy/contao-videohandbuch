@@ -1,6 +1,6 @@
 {
   "name": "contaoacademy/contao-videohandbuch",
-  "description": "Contao Open Source CMS Videohandbuch für Anwender",
+  "description": "Contao Open Source CMS Videohandbuch für Redakteure. Wird direkt ins Backend von Contao integriert.",
   "keywords": [
     "contao",
     "videohandbuch",
@@ -10,10 +10,11 @@
   ],
   "type": "contao-module",
   "license": "LGPL-3.0-or-later",
+  "homepage": "https://contao-academy.de/videohandbuch",
   "authors": [
     {
-      "name": "Christian Feneberg",
-      "homepage":"https://contao-academy.de"
+      "name": "Contao Academy",
+      "homepage": "https://contao-academy.de"
     }
   ],
   "require": {
@@ -27,5 +28,10 @@
         "": "system/modules/contao_academy_client"
       }
     }
+  },
+  "support": {
+    "issues": "https://github.com/contaoacademy/contao-videohandbuch/issues",
+    "docs": "https://contao-academy.de/videohandbuch",
+    "source": "https://github.com/contaoacademy/contao-videohandbuch/"
   }
 }
