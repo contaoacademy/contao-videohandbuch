@@ -21,37 +21,22 @@ if (TL_MODE == 'BE')
 	if(\Input::get('id') && \Input::get('do') == 'Videohandbuch') // Detailseite
 	{
 		// jQuery no conflict
-		if (isset($GLOBALS['TL_JAVASCRIPT']) && is_array($GLOBALS['TL_JAVASCRIPT']))
+		if(!isset($GLOBALS['TL_JAVASCRIPT']['jquery'])) $GLOBALS['TL_JAVASCRIPT']['jquery'] = 'assets/jquery/js/jquery.min.js||static';
+        	if(!isset($GLOBALS['TL_JAVASCRIPT']['jquery-noconflict'])) $GLOBALS['TL_JAVASCRIPT']['jquery-noconflict'] = 'system/modules/contao_academy_client/assets/jquery.noconflict.js||static';
+		
+		//Check Contao 4
+		if (version_compare(VERSION, '4.4', '<'))
 		{
-			$arrAppendJs = $GLOBALS['TL_JAVASCRIPT'];
-			$GLOBALS['TL_JAVASCRIPT'] = array();
+		    // Code für Contao 3.5
+		    $GLOBALS['TL_JAVASCRIPT'][] = 'assets/jquery/colorbox/' . COLORBOX . '/js/colorbox.min.js||static';
+		    $GLOBALS['TL_CSS'][] = 'assets/jquery/colorbox/' . COLORBOX . '/css/colorbox.min.css||static';
 		}
 		else
 		{
-			$arrAppendJs = array();
-			$GLOBALS['TL_JAVASCRIPT'] = array();
+		    // Code für Versionen ab 4.4
+		    $GLOBALS['TL_JAVASCRIPT'][] = 'assets/colorbox/js/colorbox.min.js||static';
+		    $GLOBALS['TL_CSS'][] = 'assets/colorbox/css/colorbox.min.css||static';
 		}
-		array_unshift($GLOBALS['TL_JAVASCRIPT'], 'system/modules/contao_academy_client/assets/jquery.noconflict.js');
-		
-		//Check Contao 4
-        if (version_compare(VERSION, '4.4', '<'))
-        {
-            // Code für Contao 3.5
-            $jquery_src = 'assets/jquery/core/' . JQUERY . '/jquery.min.js';
-            $GLOBALS['TL_JAVASCRIPT'][] = 'assets/jquery/colorbox/' . COLORBOX . '/js/colorbox.min.js';
-            $GLOBALS['TL_CSS'][] = 'assets/jquery/colorbox/' . COLORBOX . '/css/colorbox.min.css||static';
-        }
-        else
-        {
-            // Code für Versionen ab 4.4
-            $jquery_src = 'assets/jquery/js/jquery.min.js||static';
-            $GLOBALS['TL_JAVASCRIPT'][] = 'assets/colorbox/js/colorbox.min.js';
-            $GLOBALS['TL_CSS'][] = 'assets/colorbox/css/colorbox.min.css||static';
-        }
-		
-		
-		//
-		array_unshift($GLOBALS['TL_JAVASCRIPT'], $jquery_src);
 	}
 }
 
