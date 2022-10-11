@@ -25,3 +25,5 @@ Alle wichtigen Funktionen erklärt. Perfekt als Kundenschulung!
 
 Zur Freischaltung aller 116 Videos ist eine Lizenz der Contao Academy nötig.
 Mehr unter: https://contao-academy.de/videohandbuch-fuer-anwender
+
+Verwendet zum Anzeigen der Videos im Backend [GLightbox](https://biati-digital.github.io/glightbox/)

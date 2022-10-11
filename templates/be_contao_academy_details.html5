@@ -10,39 +10,36 @@
         <p>KEINE INHALTE VERFÜGBAR!</p>
     <?php else: ?>
 
-    <h3>Bitte ein Video auswählen:</h3>
-    <ol class="ca-list">
-        <?php foreach ($this->Videos as $objVideo): ?>
-            <li class="ca-item video_<?= $objVideo->videoid ?>"">
-            <a data-lightbox="inline" data-videoid="<?= $objVideo->videoid ?>"
-               class="video-open"
-               href="#vimeo_<?= $objVideo->videoid ?>"><?= $objVideo->headline ?>
-                (<span><?= $objVideo->dauer ?> min</span>)</a>
-            <div style="display: none;">
-                <div class="modal-popup" id="vimeo_<?= $objVideo->videoid ?>">
-                    <h3><?= $objVideo->headline ?></h3>
-                    <div class='embed-container'>
-                        <?php //Platzhalter iframe ?>
-                    </div>
-
+        <h3>Bitte ein Video auswählen:</h3>
+        <ol class="ca-list">
+            <?php foreach ($this->Videos as $objVideo): ?>
+                <li class="ca-item video_<?= $objVideo->videoid ?>">
+                    <a class="glightbox" href="https://player.vimeo.com/video/<?= $objVideo->videoid ?>"
+                       data-glightbox="title: <?= $objVideo->headline ?>;"><?= $objVideo->headline ?>
+                        (<span><?= $objVideo->dauer ?> min</span>)</a>
                     <?php if ($objVideo->content): ?>
-                        <div class="ca_content">
+                        <div class="glightbox-desc custom-desc<?= $objVideo->videoid ?>">
                             <?php foreach ($objVideo->content as $objContent): ?>
                                 <?php $txtOutput = base64_decode($objContent->text) ?>
                                 <?php $internalLink = preg_match('{{news_url::\d*}}', $txtOutput); ?>
                                 <?php if ($internalLink == 1): ?>
                                     <?php $txtOutput = strip_tags($txtOutput, '<p>'); ?>
                                 <?php endif; ?>
-                                <div class="ca_text">
-                                    <h3><?= $objContent->headline ?></h3>
-                                    <?= $txtOutput; ?>
-                                </div>
+                                <h3><?= $objContent->headline ?></h3>
+                                <?= $txtOutput; ?>
                             <?php endforeach; ?>
                         </div>
                     <?php endif; ?>
-                </div>
-            </div>
-            </li>
-        <?php endforeach; ?>
-    </ol>
-<?php endif; ?>
+                </li>
+            <?php endforeach; ?>
+        </ol>
+    <?php endif; ?>
+    <script>
+        const lightbox = GLightbox({
+            touchNavigation: true,
+            loop: false,
+            autoplayVideos: true,
+            closeOnOutsideClick: false,
+            videosWidth: '80%'
+        });
+    </script>
