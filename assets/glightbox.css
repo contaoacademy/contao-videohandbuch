@@ -501,7 +501,8 @@ iframe.wait-autoplay {
 /*Skin */
 
 .glightbox-clean .gslide-description {
-    background: #fff;
+    background: #f5f5f5;
+    margin-top: -2px;
 }
 
 .glightbox-clean .gdesc-inner {
@@ -509,18 +510,16 @@ iframe.wait-autoplay {
 }
 
 .glightbox-clean .gslide-title {
-    font-size: 1em;
+    font-size: 1.25em;
     font-weight: normal;
-    font-family: arial;
     color: #000;
-    margin-bottom: 19px;
+    margin-bottom: 0.5em;
     line-height: 1.4em;
 }
 
 .glightbox-clean .gslide-desc {
-    font-size: 0.86em;
+    font-size: 1em;
     margin-bottom: 0;
-    font-family: arial;
     line-height: 1.4em;
 }
 

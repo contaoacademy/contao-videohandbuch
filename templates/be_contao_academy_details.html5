@@ -15,31 +15,32 @@
             <?php foreach ($this->Videos as $objVideo): ?>
                 <li class="ca-item video_<?= $objVideo->videoid ?>">
                     <a class="glightbox" href="https://player.vimeo.com/video/<?= $objVideo->videoid ?>"
-                       data-glightbox="title: <?= $objVideo->headline ?>;"><?= $objVideo->headline ?>
+                       data-glightbox="title: <?= $objVideo->headline ?>; description: .custom-desc<?= $objVideo->videoid ?>"><?= $objVideo->headline ?>
                         (<span><?= $objVideo->dauer ?> min</span>)</a>
-                    <?php if ($objVideo->content): ?>
-                        <div class="glightbox-desc custom-desc<?= $objVideo->videoid ?>">
+                    <div class="glightbox-desc custom-desc<?= $objVideo->videoid ?>">
+                        <?php if ($objVideo->content): ?>
                             <?php foreach ($objVideo->content as $objContent): ?>
                                 <?php $txtOutput = base64_decode($objContent->text) ?>
                                 <?php $internalLink = preg_match('{{news_url::\d*}}', $txtOutput); ?>
                                 <?php if ($internalLink == 1): ?>
                                     <?php $txtOutput = strip_tags($txtOutput, '<p>'); ?>
                                 <?php endif; ?>
-                                <h3><?= $objContent->headline ?></h3>
+                                <strong><?= $objContent->headline ?></strong>
                                 <?= $txtOutput; ?>
                             <?php endforeach; ?>
-                        </div>
-                    <?php endif; ?>
+                        <?php endif; ?>
+                    </div>
                 </li>
             <?php endforeach; ?>
         </ol>
     <?php endif; ?>
-    <script>
-        const lightbox = GLightbox({
-            touchNavigation: true,
-            loop: false,
-            autoplayVideos: true,
-            closeOnOutsideClick: false,
-            videosWidth: '80%'
-        });
-    </script>
+</div>
+<script>
+    const lightbox = GLightbox({
+        touchNavigation: true,
+        loop: false,
+        autoplayVideos: true,
+        closeOnOutsideClick: false,
+        videosWidth: '80%'
+    });
+</script>

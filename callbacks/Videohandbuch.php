@@ -7,14 +7,14 @@
  *
  */
 
-class Videohandbuch extends \BackendModule
+class Videohandbuch extends BackendModule
 {
     protected $strTemplate = 'be_contao_academy_default';
 
 
     public function compile()
     {
-        $intID = \Input::get('id');
+        $intID = Input::get('id');
 
         // Standardansicht | Listet alle Kategorien auf
         if (!$intID) {
@@ -26,14 +26,10 @@ class Videohandbuch extends \BackendModule
 
         // Kategorie gewählt | Liste alle Videos auf
         if ($intID) {
-            $GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/contao_academy_client/assets/glightbox.js||static';
-            $GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/contao_academy_client/assets/academy_vimeo.js||static';
-
-
-            $this->Template = new \BackendTemplate('be_contao_academy_details');
+            $this->Template = new BackendTemplate('be_contao_academy_details');
             $arrResponse = @AcademyRemote::sendRequest(array('action' => 'details', 'id' => $intID));
             $this->Template->Videos = $arrResponse;
-            $this->Template->Kategoriename = \Input::get('catname');
+            $this->Template->Kategoriename = Input::get('catname');
         }
     }
 }

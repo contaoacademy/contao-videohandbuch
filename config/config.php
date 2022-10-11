@@ -7,7 +7,7 @@
  *
  */
 
-define('academy_client', '1.2.0');
+const academy_client = '1.2.0';
 
 if (file_exists(TL_ROOT . '/system/modules/contao_academy_client/classes/AcademyHelper.php')):
     $GLOBALS['TL_HOOKS']['outputBackendTemplate'][] = array('AcademyHelper', 'HeaderVideohandbuch');
@@ -15,12 +15,12 @@ endif;
 
 // CSS und JS fuer Backendview Academy
 if (TL_MODE == 'BE') {
-    $GLOBALS['TL_CSS'][] = 'system/modules/contao_academy_client/assets/glightbox.css||static';
-    $GLOBALS['TL_CSS'][] = 'system/modules/contao_academy_client/assets/academy.css||static';
+    $GLOBALS['TL_CSS'][] = 'system/modules/contao_academy_client/assets/academy.css|static';
 
-    if (\Input::get('id') && \Input::get('do') == 'Videohandbuch') // Detailseite
+    if (Input::get('id') && Input::get('do') == 'Videohandbuch') // Detailseite
     {
-
+        $GLOBALS['TL_CSS'][] = 'system/modules/contao_academy_client/assets/glightbox.css|static';
+        $GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/contao_academy_client/assets/glightbox.js|static';
     }
 }
 

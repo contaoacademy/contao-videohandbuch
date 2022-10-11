@@ -8,7 +8,7 @@
         <?php if (is_array($this->Kategorien)): ?>
             <?php foreach ($this->Kategorien as $objKategorie): ?>
                 <?php //Videoarchiv Contao 4 ?>
-                <?php if (version_compare(VERSION, '4.3', '>') && (strpos($objKategorie->title, 'Contao 3.5') == false)): ?>
+                <?php if (version_compare(VERSION, '4.3', '>') && !strpos($objKategorie->title, 'Contao 3.5')): ?>
                     <li class="ca-item cat_<?= $objKategorie->id ?>">
                         <a href="<?= Backend::addToUrl('id=' . $objKategorie->id) . '&catname=' . urlencode($objKategorie->title) ?>"><?= $objKategorie->title ?></a>
                     </li>

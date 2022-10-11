@@ -25,9 +25,9 @@ class AcademyHelper extends System
         return $strBuffer;
     }
 
-    public static function COMParam()
+    public static function COMParam(): array
     {
-        return array('v' => academy_client, 'contao' => VERSION . '.' . BUILD, 'host' => \Environment::get('httpHost'));
+        return array('v' => academy_client, 'contao' => VERSION . '.' . BUILD, 'host' => Environment::get('httpHost'));
     }
 
 }
