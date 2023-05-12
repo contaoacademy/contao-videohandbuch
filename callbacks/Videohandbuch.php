@@ -14,22 +14,9 @@ class Videohandbuch extends BackendModule
 
     public function compile()
     {
-        $intID = Input::get('id');
-
-        // Standardansicht | Listet alle Kategorien auf
-        if (!$intID) {
-            $arrResponse = @AcademyRemote::sendRequest(array('action' => 'list'));
-            $this->Template->Kategorien = $arrResponse;
-            $this->Template->Banner = @base64_decode(AcademyRemote::sendRequest(array('action' => 'banner')));
-
-        }
-
-        // Kategorie gewählt | Liste alle Videos auf
-        if ($intID) {
-            $this->Template = new BackendTemplate('be_contao_academy_details');
-            $arrResponse = @AcademyRemote::sendRequest(array('action' => 'details', 'id' => $intID));
-            $this->Template->Videos = $arrResponse;
-            $this->Template->Kategoriename = Input::get('catname');
-        }
+            $arrResponse = @AcademyHelper::getVideoData();
+            $this->Template->Titel = $arrResponse->title;
+            $this->Template->VideoData = $arrResponse->chapters->chapter;
+            //$this->Template->Banner = @base64_decode(AcademyRemote::sendRequest(array('action' => 'banner')));
     }
 }

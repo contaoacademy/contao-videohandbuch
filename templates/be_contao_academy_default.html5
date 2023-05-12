@@ -1,19 +1,60 @@
-<div id="tl_buttons"></div>
-<h2 class="sub_headline">Videohandbuch für Redakteure</h2>
+<h2 class="sub_headline"><?= $this->Titel; ?></h2>
 
 <div class="tl_listing_container" id="tl_contaoacademy">
-    <div class="promoHeader"><?= $this->Banner ?></div>
-    <h3>Bitte eine Kategorie wählen:</h3>
-    <ol class="ca-list">
-        <?php if (is_array($this->Kategorien)): ?>
-            <?php foreach ($this->Kategorien as $objKategorie): ?>
-                <?php //Videoarchiv Contao 4 ?>
-                <?php if (version_compare(VERSION, '4.3', '>') && !strpos($objKategorie->title, 'Contao 3.5')): ?>
-                    <li class="ca-item cat_<?= $objKategorie->id ?>">
-                        <a href="<?= Backend::addToUrl('id=' . $objKategorie->id) . '&catname=' . urlencode($objKategorie->title) ?>"><?= $objKategorie->title ?></a>
-                    </li>
-                <?php endif; ?>
-            <?php endforeach; ?>
-        <?php endif; ?>
-    </ol>
+    <div class="accordionWrapper">
+        <?php foreach ($this->VideoData as $Kapitel): ?>
+            <div class="accordionItem close">
+                <div class="accordionItemHeading"><?= $Kapitel->title ?></div>
+                <div class="accordionItemContent">
+                    <?php if($Kapitel->description): ?>
+                        <p class="description"><?= $Kapitel->description ?></p>
+                    <?php endif; ?>
+                    <ul class="ca-list">
+                        <?php foreach ($Kapitel->videos->video as $objVideo): ?>
+                            <li class="ca-item">
+                                <a class="glightbox" href="https://videos.cdn.spotlightr.com/watch/<?= $objVideo->id ?>"
+                                   data-glightbox="type: external"><span
+                                        class="video-title">&rsaquo; <?= $objVideo->title ?></span>
+                                    <span class="video-duration"><?= $objVideo->duration ?> min</span></a>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
+                </div>
+            </div>
+        <?php endforeach; ?>
+    </div>
 </div>
+
+<script>
+    const accItem = document.getElementsByClassName('accordionItem');
+    const accHD = document.getElementsByClassName('accordionItemHeading');
+    for (i = 0; i < accHD.length; i++) {
+        accHD[i].addEventListener('click', toggleItem, false);
+    }
+
+    function toggleItem() {
+        var itemClass = this.parentNode.className;
+        for (i = 0; i < accItem.length; i++) {
+            accItem[i].className = 'accordionItem close';
+        }
+        if (itemClass == 'accordionItem close') {
+            this.parentNode.className = 'accordionItem open';
+        }
+    }
+
+    const lightbox = GLightbox({
+        touchNavigation: true,
+        loop: false,
+        autoplayVideos: true,
+        preload: false,
+        closeOnOutsideClick: false,
+        width: '85vw',
+        height: '85vh'
+    });
+</script>
+
+
+
+
+
+
