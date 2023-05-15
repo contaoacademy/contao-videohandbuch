@@ -28,7 +28,7 @@ class AcademyHelper extends System
     public static function getVideoData()
     {
         //read json file and decode json to an array
-        $path = TL_ROOT . '/system/modules/contao_academy_client/videos.json';
+        $path = TL_ROOT . '/system/modules/contao_videohandbuch/videos.json';
         if (file_exists($path)) {
             $jsonString = file_get_contents($path);
         }
@@ -38,10 +38,4 @@ class AcademyHelper extends System
         }
         return json_decode($jsonString, false);
     }
-
-    public static function COMParam(): array
-    {
-        return array('v' => academy_client, 'contao' => VERSION . '.' . BUILD, 'host' => Environment::get('httpHost'));
-    }
-
 }

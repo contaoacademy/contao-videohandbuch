@@ -7,10 +7,10 @@
 ClassLoader::addClasses(array
 (
     // Callbacks
-    'Videohandbuch' => 'system/modules/contao_academy_client/callbacks/Videohandbuch.php',
+    'Videohandbuch' => 'system/modules/contao_videohandbuch/callbacks/Videohandbuch.php',
 
     // Classes
-    'AcademyHelper' => 'system/modules/contao_academy_client/classes/AcademyHelper.php',
+    'AcademyHelper' => 'system/modules/contao_videohandbuch/classes/AcademyHelper.php',
 ));
 
 
@@ -19,5 +19,5 @@ ClassLoader::addClasses(array
  */
 TemplateLoader::addFiles(array
 (
-    'be_contao_academy_default' => 'system/modules/contao_academy_client/templates',
+    'be_videohandbuch' => 'system/modules/contao_videohandbuch/templates',
 ));

@@ -9,7 +9,7 @@
 
 class Videohandbuch extends BackendModule
 {
-    protected $strTemplate = 'be_contao_academy_default';
+    protected $strTemplate = 'be_videohandbuch';
 
 
     public function compile()
@@ -17,6 +17,5 @@ class Videohandbuch extends BackendModule
             $arrResponse = @AcademyHelper::getVideoData();
             $this->Template->Titel = $arrResponse->title;
             $this->Template->VideoData = $arrResponse->chapters->chapter;
-            //$this->Template->Banner = @base64_decode(AcademyRemote::sendRequest(array('action' => 'banner')));
     }
 }
