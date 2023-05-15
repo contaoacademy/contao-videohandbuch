@@ -58,27 +58,6 @@ h2.sub_headline {
     background: #fffce1;
 }
 
-.embed-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    width: 1060px;
-    max-width: 100%;
-    margin: 10px 0;
-    background: #434343;
-}
-
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
 .gcontainer .gprev,
 .gcontainer .gnext {
     display: none;
