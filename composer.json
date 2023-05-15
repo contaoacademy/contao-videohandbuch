@@ -25,7 +25,7 @@
   "extra": {
     "contao": {
       "sources": {
-        "": "system/modules/contao_videohandbuch"
+        "": "system/modules/videohandbuch"
       }
     }
   },

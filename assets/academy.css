@@ -96,7 +96,7 @@ h2.sub_headline {
 }
 
 .header_videohandbuch {
-    background-image: url("/system/modules/contao_videohandbuch/assets/icon.jpg");
+    background-image: url("/system/modules/videohandbuch/assets/icon.jpg");
 }
 
 /** Accordion **/

@@ -28,7 +28,7 @@ class AcademyHelper extends System
     public static function getVideoData()
     {
         //read json file and decode json to an array
-        $path = TL_ROOT . '/system/modules/contao_videohandbuch/videos.json';
+        $path = TL_ROOT . '/system/modules/videohandbuch/videos.json';
         if (file_exists($path)) {
             $jsonString = file_get_contents($path);
         }
