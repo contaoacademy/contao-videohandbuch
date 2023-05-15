@@ -48,8 +48,8 @@
         autoplayVideos: true,
         preload: false,
         closeOnOutsideClick: false,
-        width: '85vw',
-        height: '85vh'
+        width: '95vw',
+        height: 'auto'
     });
 </script>
 

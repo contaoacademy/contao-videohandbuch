@@ -909,11 +909,6 @@ iframe.wait-autoplay {
         background: rgba(0, 0, 0, 0.92);
     }
 
-    .glightbox-clean .gslide-media {
-        -webkit-box-shadow: 1px 2px 9px 0px rgba(0, 0, 0, 0.65);
-        box-shadow: 1px 2px 9px 0px rgba(0, 0, 0, 0.65);
-    }
-
     .glightbox-clean .description-left .gdesc-inner,
     .glightbox-clean .description-right .gdesc-inner {
         position: absolute;

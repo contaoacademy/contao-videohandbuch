@@ -63,6 +63,27 @@ h2.sub_headline {
     display: none;
 }
 
+.gcontainer .gslide-external {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 10px 0;
+    background: #000000;
+}
+
+.gcontainer .gslide-external iframe,
+.gcontainer .gslide-external object,
+.gcontainer .gslide-external embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
 .modal-popup {
     padding: 10px;
 }
@@ -75,7 +96,7 @@ h2.sub_headline {
 }
 
 .header_videohandbuch {
-    background-image: url("/system/modules/contao_academy_client/assets/icon.jpg");
+    background-image: url("/system/modules/contao_videohandbuch/assets/icon.jpg");
 }
 
 /** Accordion **/
