@@ -13,7 +13,7 @@
                         <?php foreach ($Kapitel->videos->video as $objVideo): ?>
                             <li class="ca-item">
                                 <a class="glightbox" href="<?= (($objVideo->player == "vimeo") ? "https://player.vimeo.com/video/" : "https://videos.cdn.spotlightr.com/watch/") ?><?= $objVideo->id ?>"
-                                   data-glightbox="type: external"><span
+                                   data-glightbox="type: external" data-gallery="video_<?= $objVideo->id ?>"><span
                                         class="video-title">&rsaquo; <?= $objVideo->title ?></span>
                                     <span class="video-duration"><?= $objVideo->duration ?> min</span></a>
                             </li>
