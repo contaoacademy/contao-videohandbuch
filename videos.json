@@ -10,118 +10,141 @@
           "video": [
             {
               "title": "Hilfe und Doku",
-              "id": "MTQxMzYyOQ==",
-              "duration": "3:32"
+              "id": "422720191",
+              "duration": "3:32",
+              "player" : "vimeo"
             },
             {
               "title": "Anmeldung am Contao Backend",
-              "id": "MTQxMzYyNQ==",
-              "duration": "2:24"
+              "id": "422716064",
+              "duration": "2:24",
+              "player" : "vimeo"
             },
             {
               "title": "Unterschied zwischen Frontend und Backend",
-              "id": "MTQxMzYyNg==",
-              "duration": "1:20"
+              "id": "422716058",
+              "duration": "1:20",
+              "player" : "vimeo"
             },
             {
               "title": "Rundgang durchs Backend - Wo finde ich was?",
-              "id": "MTQxMzYzMQ==",
-              "duration": "5:57"
+              "id": "422719310",
+              "duration": "5:57",
+              "player" : "vimeo"
             },
             {
               "title": "Erklärung der Symbole und Schaltflächen",
-              "id": "MTQxMzYzMw==",
-              "duration": "13:00"
+              "id": "422724365",
+              "duration": "13:00",
+              "player" : "vimeo"
             },
             {
               "title": "Filter verwenden",
-              "id": "MTQxMzYzMA==",
-              "duration": "2:23"
+              "id": "422716068",
+              "duration": "2:23",
+              "player" : "vimeo"
             },
             {
               "title": "Zusammenhang von Artikel, Seite und Inhaltselement",
-              "id": "MTQxMzYzMg==",
-              "duration": "9:08"
+              "id": "422722913",
+              "duration": "9:08",
+              "player" : "vimeo"
             },
             {
               "title": "Neue Seiten anlegen (wichtige Felder)",
-              "id": "MTQxMzYzOQ==",
-              "duration": "3:33"
+              "id": "422717733",
+              "duration": "3:33",
+              "player" : "vimeo"
             },
             {
               "title": "Seiten bearbeiten, löschen, kopieren, verschieben",
-              "id": "MTQxMzY0Mg==",
-              "duration": "6:09"
+              "id": "422721603",
+              "duration": "6:09",
+              "player" : "vimeo"
             },
             {
               "title": "Metadaten einer Seite anpassen (Google-Vorschau)",
-              "id": "MTQxMzY0NA==",
-              "duration": "5:16"
+              "id": "422719792",
+              "duration": "5:16",
+              "player" : "vimeo"
             },
             {
               "title": "Wofür sind Artikel in Contao nötig?",
               "id": "MTQxMzY0OA==",
-              "duration": "3:19"
+              "duration": "3:19",
+              "player" : "spotlightr"
             },
             {
               "title": "Was sind Inhaltselemente?",
               "id": "MTQxMzc0NQ==",
-              "duration": "2:58"
+              "duration": "2:58",
+              "player" : "spotlightr"
             },
             {
               "title": "Neues Inhaltselement anlegen",
               "id": "MTQxMzc0OQ==",
-              "duration": "4:43"
+              "duration": "4:43",
+              "player" : "spotlightr"
             },
             {
               "title": "Texte mit dem Textelement erstellen",
               "id": "MTQxMzc0Ng==",
-              "duration": "7:21"
+              "duration": "7:21",
+              "player" : "spotlightr"
             },
             {
               "title": "Bestehende Inhalte bearbeiten",
               "id": "MTQxMzc0Nw==",
-              "duration": "5:06"
+              "duration": "5:06",
+              "player" : "spotlightr"
             },
             {
               "title": "Bilder hinzufügen",
               "id": "MTQxMzc1NA==",
-              "duration": "13:48"
+              "duration": "13:48",
+              "player" : "spotlightr"
             },
             {
               "title": "Inhaltselemente ausblenden, kopieren, verschieben und löschen",
               "id": "MTQxMzc0OA==",
-              "duration": "3:58"
+              "duration": "3:58",
+              "player" : "spotlightr"
             },
             {
               "title": "Texte formatieren mit dem TinyMCE",
               "id": "MTQxMzc2Mg==",
-              "duration": "8:27"
+              "duration": "8:27",
+              "player" : "spotlightr"
             },
             {
               "title": "Links zu internen und externen Seiten erstellen",
               "id": "MTQxMzc1OQ==",
-              "duration": "5:35"
+              "duration": "5:35",
+              "player" : "spotlightr"
             },
             {
               "title": "Was du unbedingt beim TinyMCE vermeiden solltest",
               "id": "MTQxMzc2MQ==",
-              "duration": "2:18"
+              "duration": "2:18",
+              "player" : "spotlightr"
             },
             {
               "title": "Überblick Dateiverwaltung in Contao",
               "id": "MTQxMzc4OA==",
-              "duration": "4:14"
+              "duration": "4:14",
+              "player" : "spotlightr"
             },
             {
               "title": "Neue Dateien hochladen",
               "id": "MTQxMzc4Nw==",
-              "duration": "2:43"
+              "duration": "2:43",
+              "player" : "spotlightr"
             },
             {
               "title": "Daten per Drag&Drop hochladen",
               "id": "MTQxMzc4Ng==",
-              "duration": "1:19"
+              "duration": "1:19",
+              "player" : "spotlightr"
             },
             {
               "title": "Wichtiger Teil und Metadaten bei Bilden festlegen",
@@ -139,47 +162,56 @@
             {
               "title": "Das CMS Contao",
               "id": "MTQxMzYyNA==",
-              "duration": "9:14"
+              "duration": "9:14",
+              "player" : "spotlightr"
             },
             {
               "title": "Hilfe und Doku",
               "id": "MTQxMzYyOQ==",
-              "duration": "3:32"
+              "duration": "3:32",
+              "player" : "spotlightr"
             },
             {
               "title": "Der richtige Browser",
               "id": "MTQxMzYyOA==",
-              "duration": "3:17"
+              "duration": "3:17",
+              "player" : "spotlightr"
             },
             {
               "title": "Anmeldung am Contao Backend",
               "id": "MTQxMzYyNQ==",
-              "duration": "2:24"
+              "duration": "2:24",
+              "player" : "spotlightr"
             },
             {
               "title": "Unterschied zwischen Frontend und Backend",
               "id": "MTQxMzYyNg==",
-              "duration": "1:20"
+              "duration": "1:20",
+              "player" : "spotlightr"
             },
             {
               "title": "Rundgang durchs Backend - Wo finde ich was?",
               "id": "MTQxMzYzMQ==",
-              "duration": "5:57"
+              "duration": "5:57",
+              "player" : "spotlightr"
             },
             {
               "title": "Profil anpassen und Passwort ändern",
               "id": "MTQxMzYyNw==",
-              "duration": "3:10"
+              "duration": "3:10",
+              "player" : "spotlightr"
             },
             {
               "title": "Erklärung der Symbole und Schaltflächen",
               "id": "MTQxMzYzMw==",
-              "duration": "13:00"
+              "duration": "13:00",
+              "player" : "spotlightr"
             },
             {
               "title": "Filter verwenden",
               "id": "MTQxMzYzMA==",
-              "duration": "2:23"
+              "duration": "2:23",
+              "player" : "spotlightr"
             },
             {
               "title": "Zusammenhang von Artikel, Seite und Inhaltselement",
@@ -197,37 +229,44 @@
             {
               "title": "Perfekte Seitenstruktur planen",
               "id": "MTQxMzY0MQ==",
-              "duration": "4:19"
+              "duration": "4:19",
+              "player" : "spotlightr"
             },
             {
               "title": "Startpunkt einer Website",
               "id": "MTQxMzY0MA==",
-              "duration": "5:39"
+              "duration": "5:39",
+              "player" : "spotlightr"
             },
             {
               "title": "Neue Seiten anlegen (wichtige Felder)",
               "id": "MTQxMzYzOQ==",
-              "duration": "3:33"
+              "duration": "3:33",
+              "player" : "spotlightr"
             },
             {
               "title": "Seiten bearbeiten, löschen, kopieren, verschieben",
               "id": "MTQxMzY0Mg==",
-              "duration": "6:09"
+              "duration": "6:09",
+              "player" : "spotlightr"
             },
             {
               "title": "Layout einer Seite ändern / zuweisen",
               "id": "MTQxMzY0Mw==",
-              "duration": "2:32"
+              "duration": "2:32",
+              "player" : "spotlightr"
             },
             {
               "title": "Metadaten einer Seite anpassen (Google-Vorschau)",
               "id": "MTQxMzY0NA==",
-              "duration": "5:16"
+              "duration": "5:16",
+              "player" : "spotlightr"
             },
             {
               "title": "Weitere Einstellungen und Felder einer Seite",
               "id": "MTQxMzY0OQ==",
-              "duration": "7:31"
+              "duration": "7:31",
+              "player" : "spotlightr"
             },
             {
               "title": "Welche Seitentypen gibt es noch?",
@@ -245,22 +284,26 @@
             {
               "title": "Wofür sind Artikel in Contao nötig?",
               "id": "MTQxMzY0OA==",
-              "duration": "3:19"
+              "duration": "3:19",
+              "player" : "spotlightr"
             },
             {
               "title": "Einstellungen eines Artikels",
               "id": "MTQxMzY0Ng==",
-              "duration": "4:55"
+              "duration": "4:55",
+              "player" : "spotlightr"
             },
             {
               "title": "Artikel einer Spalte zuordnen",
               "id": "MTQxMzY0NQ==",
-              "duration": "0:53"
+              "duration": "0:53",
+              "player" : "spotlightr"
             },
             {
               "title": "Artikel ausblenden, kopieren, verschieben und löschen",
               "id": "MTQxMzY1MQ==",
-              "duration": "5:51"
+              "duration": "5:51",
+              "player" : "spotlightr"
             },
             {
               "title": "Mehrere Artikel mit Teasertext verwenden",
@@ -278,47 +321,56 @@
             {
               "title": "Was sind Inhaltselemente?",
               "id": "MTQxMzc0NQ==",
-              "duration": "2:58"
+              "duration": "2:58",
+              "player" : "spotlightr"
             },
             {
               "title": "Neues Inhaltselement anlegen",
               "id": "MTQxMzc0OQ==",
-              "duration": "4:43"
+              "duration": "4:43",
+              "player" : "spotlightr"
             },
             {
               "title": "Texte mit dem Textelement erstellen",
               "id": "MTQxMzc0Ng==",
-              "duration": "7:21"
+              "duration": "7:21",
+              "player" : "spotlightr"
             },
             {
               "title": "Bestehende Inhalte bearbeiten",
               "id": "MTQxMzc0Nw==",
-              "duration": "5:06"
+              "duration": "5:06",
+              "player" : "spotlightr"
             },
             {
               "title": "Bilder hinzufügen",
               "id": "MTQxMzc1NA==",
-              "duration": "13:48"
+              "duration": "13:48",
+              "player" : "spotlightr"
             },
             {
               "title": "Inhaltselemente ausblenden, kopieren, verschieben und löschen",
               "id": "MTQxMzc0OA==",
-              "duration": "3:58"
+              "duration": "3:58",
+              "player" : "spotlightr"
             },
             {
               "title": "Inhalte wiederherstellen und Versionen vergleichen",
               "id": "MTQxMzc1Mw==",
-              "duration": "3:40"
+              "duration": "3:40",
+              "player" : "spotlightr"
             },
             {
               "title": "Zeitersparnis dank Tastaturkürzel",
               "id": "MTQxMzc1NQ==",
-              "duration": "2:37"
+              "duration": "2:37",
+              "player" : "spotlightr"
             },
             {
               "title": "Mehrere Elemente gleichzeitig bearbeiten",
               "id": "MTQxMzc1MA==",
-              "duration": "3:08"
+              "duration": "3:08",
+              "player" : "spotlightr"
             },
             {
               "title": "Wie funktioniert die Vorschau-Funktion?",
@@ -336,47 +388,56 @@
             {
               "title": "Was ist ein Rich Text Editor (TinyMCE)",
               "id": "MTQxMzc1MQ==",
-              "duration": "4:02"
+              "duration": "4:02",
+              "player" : "spotlightr"
             },
             {
               "title": "Texte formatieren mit dem TinyMCE",
               "id": "MTQxMzc2Mg==",
-              "duration": "8:27"
+              "duration": "8:27",
+              "player" : "spotlightr"
             },
             {
               "title": "Links zu internen und externen Seiten erstellen",
               "id": "MTQxMzc1OQ==",
-              "duration": "5:35"
+              "duration": "5:35",
+              "player" : "spotlightr"
             },
             {
               "title": "Links auf Dateien und News erstellen",
               "id": "MTQxMzc1OA==",
-              "duration": "2:45"
+              "duration": "2:45",
+              "player" : "spotlightr"
             },
             {
               "title": "Aufzählungen und Listen verwenden",
               "id": "MTQxMzc1Ng==",
-              "duration": "3:35"
+              "duration": "3:35",
+              "player" : "spotlightr"
             },
             {
               "title": "Bilder im TinyMCE einfügen und warum du das vermeiden solltest",
               "id": "MTQxMzc2Mw==",
-              "duration": "4:59"
+              "duration": "4:59",
+              "player" : "spotlightr"
             },
             {
               "title": "Tabellen im TinyMCE hinzufügen und warum du das vermeiden solltest",
               "id": "MTQxMzc2MA==",
-              "duration": "4:35"
+              "duration": "4:35",
+              "player" : "spotlightr"
             },
             {
               "title": "Sonstige Funktionen des TinyMCE",
               "id": "MTQxMzc2NQ==",
-              "duration": "7:07"
+              "duration": "7:07",
+              "player" : "spotlightr"
             },
             {
               "title": "So fügst du Texte korrekt aus Word ein",
               "id": "MTQxMzc2NA==",
-              "duration": "4:26"
+              "duration": "4:26",
+              "player" : "spotlightr"
             },
             {
               "title": "Was du unbedingt beim TinyMCE vermeiden solltest",
@@ -394,87 +455,104 @@
             {
               "title": "Überschrift als eigenes Inhaltselement nutzen",
               "id": "MTQxMzc2Ng==",
-              "duration": "2:33"
+              "duration": "2:33",
+              "player" : "spotlightr"
             },
             {
               "title": "Galerie: Mehrere Bilder einfach hinzufügen",
               "id": "MTQxMzc4Mw==",
-              "duration": "10:48"
+              "duration": "10:48",
+              "player" : "spotlightr"
             },
             {
               "title": "Aufzählung: Nummerierte und unnummerierte Listen erstellen",
               "id": "MTQxMzc2OA==",
-              "duration": "4:07"
+              "duration": "4:07",
+              "player" : "spotlightr"
             },
             {
               "title": "Akkordeon: Inhalt dynamisch präsentieren",
               "id": "MTQxMzc3Nw==",
-              "duration": "6:28"
+              "duration": "6:28",
+              "player" : "spotlightr"
             },
             {
               "title": "Downloads: Dateien zum Download anbieten",
               "id": "MTQxMzc3Mw==",
-              "duration": "6:15"
+              "duration": "6:15",
+              "player" : "spotlightr"
             },
             {
               "title": "Tabelle: Daten in Tabellen einfügen",
               "id": "MTQxMzc3MA==",
-              "duration": "8:57"
+              "duration": "8:57",
+              "player" : "spotlightr"
             },
             {
               "title": "Formular: Vorhandene Formulare integrieren",
               "id": "MTQxMzc2Nw==",
-              "duration": "2:25"
+              "duration": "2:25",
+              "player" : "spotlightr"
             },
             {
               "title": "Content Slider: Bilderslideshow erstellen",
               "id": "MTQxMzc3Mg==",
-              "duration": "4:34"
+              "duration": "4:34",
+              "player" : "spotlightr"
             },
             {
               "title": "Hyperlink: Links auf interne und externe Seiten",
               "id": "MTQxMzc4Mg==",
-              "duration": "8:25"
+              "duration": "8:25",
+              "player" : "spotlightr"
             },
             {
               "title": "HTML: Individuellen Quellcode einfügen",
               "id": "MTQxMzc2OQ==",
-              "duration": "1:33"
+              "duration": "1:33",
+              "player" : "spotlightr"
             },
             {
               "title": "Video/Audio: Video-Player zum Anzeigen von Dateien",
               "id": "MTQxMzc3MQ==",
-              "duration": "4:10"
+              "duration": "4:10",
+              "player" : "spotlightr"
             },
             {
               "title": "YouTube: Videos von YouTube einbinden",
               "id": "MTQxMzc4MQ==",
-              "duration": "6:19"
+              "duration": "6:19",
+              "player" : "spotlightr"
             },
             {
               "title": "Vimeo: Videos von Vimeo einbinden",
               "id": "MTQxMzc3NQ==",
-              "duration": "4:10"
+              "duration": "4:10",
+              "player" : "spotlightr"
             },
             {
               "title": "Code: Syntaxhervorhebung für Programmiersprachen",
               "id": "MTQxMzc3NA==",
-              "duration": "0:51"
+              "duration": "0:51",
+              "player" : "spotlightr"
             },
             {
               "title": "Markdown: Eine Alternative zum Text-Element",
               "id": "MTQxMzc4MA==",
-              "duration": "1:44"
+              "duration": "1:44",
+              "player" : "spotlightr"
             },
             {
               "title": "Top-Link: Sprungmarke zum Seitenanfang hinzufügen",
               "id": "MTQxMzc3OQ==",
-              "duration": "1:07"
+              "duration": "1:07",
+              "player" : "spotlightr"
             },
             {
               "title": "Include-Elemente: Bestehende Elemente verwenden",
               "id": "MTQxMzc3Ng==",
-              "duration": "3:11"
+              "duration": "3:11",
+              "player" : "spotlightr"
             },
             {
               "title": "Insert-Tags und Basic Entities nutzen",
@@ -492,57 +570,68 @@
             {
               "title": "Ordner und Dateien sinnvoll strukturieren",
               "id": "MTQxMzc4OQ==",
-              "duration": "6:58"
+              "duration": "6:58",
+              "player" : "spotlightr"
             },
             {
               "title": "Überblick Dateiverwaltung in Contao",
               "id": "MTQxMzc4OA==",
-              "duration": "4:14"
+              "duration": "4:14",
+              "player" : "spotlightr"
             },
             {
               "title": "Neue Ordner anlegen",
               "id": "MTQxMzc4NQ==",
-              "duration": "1:21"
+              "duration": "1:21",
+              "player" : "spotlightr"
             },
             {
               "title": "Neue Dateien hochladen",
               "id": "MTQxMzc4Nw==",
-              "duration": "2:43"
+              "duration": "2:43",
+              "player" : "spotlightr"
             },
             {
               "title": "Daten per Drag&Drop hochladen",
               "id": "MTQxMzc4Ng==",
-              "duration": "1:19"
+              "duration": "1:19",
+              "player" : "spotlightr"
             },
             {
               "title": "Dateien verschieben, umbenennen und löschen",
               "id": "MTQxMzc5NA==",
-              "duration": "4:00"
+              "duration": "4:00",
+              "player" : "spotlightr"
             },
             {
               "title": "Wichtiger Teil und Metadaten bei Bilden festlegen",
               "id": "MTQxMzc5Nw==",
-              "duration": "5:38"
+              "duration": "5:38",
+              "player" : "spotlightr"
             },
             {
               "title": "Geschützte Ordner anlegen",
               "id": "MTQxMzc5MA==",
-              "duration": "1:36"
+              "duration": "1:36",
+              "player" : "spotlightr"
             },
             {
               "title": "Große Dateien per FTP-Upload hinzufügen",
               "id": "MTQxMzc5Mw==",
-              "duration": "2:49"
+              "duration": "2:49",
+              "player" : "spotlightr"
             },
             {
               "title": "Dateiverwaltung über Inhaltselement",
               "id": "MTQxMzc5MQ==",
-              "duration": "1:24"
+              "duration": "1:24",
+              "player" : "spotlightr"
             },
             {
               "title": "Dateien direkt in der Dateiverwaltung bearbeiten",
               "id": "MTQxMzc5Mg==",
-              "duration": "0:39"
+              "duration": "0:39",
+              "player" : "spotlightr"
             },
             {
               "title": "Grundlagen Bildbearbeitung und Bildformate",
@@ -560,42 +649,50 @@
             {
               "title": "Online-Bildbearbeitung mit pixlr",
               "id": "MTQxMzgwMQ==",
-              "duration": "4:07"
+              "duration": "4:07",
+              "player" : "spotlightr"
             },
             {
               "title": "Online-Bildbearbeitung mit fotor",
               "id": "MTQxMzc5Ng==",
-              "duration": "2:46"
+              "duration": "2:46",
+              "player" : "spotlightr"
             },
             {
               "title": "Bildbearbeitung mit IrfanView (Windows)",
               "id": "MTQxMzc5NQ==",
-              "duration": "2:59"
+              "duration": "2:59",
+              "player" : "spotlightr"
             },
             {
               "title": "Bildbearbeitung mit GIMP (Windows und MacOS)",
               "id": "MTQxMzgwMA==",
-              "duration": "3:07"
+              "duration": "3:07",
+              "player" : "spotlightr"
             },
             {
               "title": "Bildbearbeitung mit Vorschau (MacOS)",
               "id": "MTQxMzc5OA==",
-              "duration": "3:03"
+              "duration": "3:03",
+              "player" : "spotlightr"
             },
             {
               "title": "Bildbearbeitung mit Pixelmator (MacOS)",
               "id": "MTQxMzgwMw==",
-              "duration": "2:16"
+              "duration": "2:16",
+              "player" : "spotlightr"
             },
             {
               "title": "Mehrere Bilder mit IrfanView verkleinern (Windows)",
               "id": "MTQxMzc5OQ==",
-              "duration": "2:07"
+              "duration": "2:07",
+              "player" : "spotlightr"
             },
             {
               "title": "Mehrere Bilder mit ResizeSense verkleinern (MacOS)",
               "id": "MTQxMzgwNA==",
-              "duration": "5:20"
+              "duration": "5:20",
+              "player" : "spotlightr"
             },
             {
               "title": "Hochauflösende Bildschirme",
@@ -613,27 +710,32 @@
             {
               "title": "Wie funktionieren Nachrichten in Contao?",
               "id": "MTQxMzgwNg==",
-              "duration": "2:59"
+              "duration": "2:59",
+              "player" : "spotlightr"
             },
             {
               "title": "Neue Nachricht erstellen",
               "id": "MTQxMzgxNQ==",
-              "duration": "5:55"
+              "duration": "5:55",
+              "player" : "spotlightr"
             },
             {
               "title": "Beitrag um Inhaltselemente ergänzen",
               "id": "MTQxMzgwNw==",
-              "duration": "3:28"
+              "duration": "3:28",
+              "player" : "spotlightr"
             },
             {
               "title": "Weiterleitungen bei Nachrichten nutzen",
               "id": "MTQxMzgxMA==",
-              "duration": "2:42"
+              "duration": "2:42",
+              "player" : "spotlightr"
             },
             {
               "title": "Wichtigen Beitrag hervorheben",
               "id": "MTQxMzgxMQ==",
-              "duration": "1:06"
+              "duration": "1:06",
+              "player" : "spotlightr"
             },
             {
               "title": "Nachrichten vorbereiten und zeitgesteuert veröffentlichen",
@@ -651,22 +753,26 @@
             {
               "title": "Wie funktionieren Events in Contao?",
               "id": "MTQxMzgyMw==",
-              "duration": "2:22"
+              "duration": "2:22",
+              "player" : "spotlightr"
             },
             {
               "title": "Neues Event anlegen",
               "id": "MTQxMzgxOQ==",
-              "duration": "4:04"
+              "duration": "4:04",
+              "player" : "spotlightr"
             },
             {
               "title": "Event um Inhaltselemente ergänzen",
               "id": "MTQxMzgxMw==",
-              "duration": "1:37"
+              "duration": "1:37",
+              "player" : "spotlightr"
             },
             {
               "title": "Wiederkehrendes Event erstellen",
               "id": "MTQxMzgxMg==",
-              "duration": "1:20"
+              "duration": "1:20",
+              "player" : "spotlightr"
             },
             {
               "title": "Weiterleitungen bei Events nutzen",
@@ -684,32 +790,38 @@
             {
               "title": "FAQ-Modul",
               "id": "MTQxMzgxOA==",
-              "duration": "3:50"
+              "duration": "3:50",
+              "player" : "spotlightr"
             },
             {
               "title": "Backend-Login per Zwei-Faktor-Authentifizierung",
               "id": "MTQxMzgxNw==",
-              "duration": "2:09"
+              "duration": "2:09",
+              "player" : "spotlightr"
             },
             {
               "title": "Newsletter: Verteiler verwalten",
               "id": "MTQxMzgyMQ==",
-              "duration": "4:09"
+              "duration": "4:09",
+              "player" : "spotlightr"
             },
             {
               "title": "Newsletter: Inhalte eingeben und Newsletter versende",
               "id": "MTQxMzgyNA==",
-              "duration": "5:37"
+              "duration": "5:37",
+              "player" : "spotlightr"
             },
             {
               "title": "Kommentare verwalten",
               "id": "MTQxMzgyMA==",
-              "duration": "2:24"
+              "duration": "2:24",
+              "player" : "spotlightr"
             },
             {
               "title": "Mitglieder verwalten",
               "id": "MTQxMzgyNQ==",
-              "duration": "4:13"
+              "duration": "4:13",
+              "player" : "spotlightr"
             },
             {
               "title": "Geschützte Seiten anlegen",
@@ -727,22 +839,26 @@
             {
               "title": "SEO Grundlagen",
               "id": "MTQxMzg0Mg==",
-              "duration": "12:14"
+              "duration": "12:14",
+              "player" : "spotlightr"
             },
             {
               "title": "Metadaten der Seite optimieren",
               "id": "MTQxMzgyOQ==",
-              "duration": "4:40"
+              "duration": "4:40",
+              "player" : "spotlightr"
             },
             {
               "title": "Inhalte und Text strukturieren",
               "id": "MTQxMzgzMA==",
-              "duration": "2:05"
+              "duration": "2:05",
+              "player" : "spotlightr"
             },
             {
               "title": "Bilder für Google optimieren",
               "id": "MTQxMzgzMg==",
-              "duration": "3:10"
+              "duration": "3:10",
+              "player" : "spotlightr"
             },
             {
               "title": "Verlinkungen optimieren",
@@ -760,32 +876,38 @@
             {
               "title": "Einleitung",
               "id": "MTQxMzgyOA==",
-              "duration": "0:21"
+              "duration": "0:21",
+              "player" : "spotlightr"
             },
             {
               "title": "Welche Contao-Version nutze ich?",
               "id": "MTQxMzgzMQ==",
-              "duration": "0:58"
+              "duration": "0:58",
+              "player" : "spotlightr"
             },
             {
               "title": "Warum sehe ich nicht alle Menüpunkte?",
               "id": "MTQxMzgzNg==",
-              "duration": "0:35"
+              "duration": "0:35",
+              "player" : "spotlightr"
             },
             {
               "title": "Wie kann ich gelöschte Elemente wiederherstellen?",
               "id": "MTQxMzgzNQ==",
-              "duration": "1:21"
+              "duration": "1:21",
+              "player" : "spotlightr"
             },
             {
               "title": "Geänderte Inhalte werden nicht angezeigt (Cache)",
               "id": "MTQxMzgzOA==",
-              "duration": "1:25"
+              "duration": "1:25",
+              "player" : "spotlightr"
             },
             {
               "title": "Passwort vergessen und jetzt?",
               "id": "MTQxMzgzNA==",
-              "duration": "0:14"
+              "duration": "0:14",
+              "player" : "spotlightr"
             },
             {
               "title": "Hilfe, meine Seiten sind weg!",
@@ -803,22 +925,26 @@
             {
               "title": "Frontend Helper (Erweiterung)",
               "id": "MTQxMzg0MQ==",
-              "duration": "3:52"
+              "duration": "3:52",
+              "player" : "spotlightr"
             },
             {
               "title": "Hinweis auf Impressum und Datenschutz",
               "id": "MTQxMzgzOQ==",
-              "duration": "1:51"
+              "duration": "1:51",
+              "player" : "spotlightr"
             },
             {
               "title": "Bilder: Urheberrecht und Nachweis",
               "id": "MTQxMzg0Mw==",
-              "duration": "3:14"
+              "duration": "3:14",
+              "player" : "spotlightr"
             },
             {
               "title": "Inspirationen - Projekte mit Contao",
               "id": "MTQxMzg0MA==",
-              "duration": "1:06"
+              "duration": "1:06",
+              "player" : "spotlightr"
             }
           ]
         }
