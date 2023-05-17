@@ -13,48 +13,44 @@
     text-indent: 28px;
 }
 
-.tl_listing_container a {
+#tl_contaoacademy a {
     color: #f47c00;
 }
 
-.tl_listing_container a:hover {
+#tl_contaoacademy a:hover {
     color: #0f1c26;
 }
 
 
-h2.sub_headline {
+h2.academy_headline {
     font-size: 2em;
-    margin-left: 12px;
+    margin: 15px;
 }
 
-.intro {
-    margin: 0 0 20px 0;
-}
-
-.ca-list,
-.ca-item {
+#tl_contaoacademy .ca-list,
+#tl_contaoacademy .ca-item {
     list-style: none;
     padding: 0 5px;
     margin: 0;
 }
 
-.ca-item,
-.ca-item a {
+#tl_contaoacademy .ca-item,
+#tl_contaoacademy .ca-item a {
     font-size: 1em;
 }
 
-.ca-item a {
+#tl_contaoacademy .ca-item a {
     display: flex;
     justify-content: space-between;
     line-height: 2;
     color: #0f1c26;
 }
 
-.ca-item:nth-child(odd) {
+#tl_contaoacademy .ca-item:nth-child(odd) {
     background: #f7f7f7;
 }
 
-.ca-item:hover {
+#tl_contaoacademy .ca-item:hover {
     background: #fffce1;
 }
 
@@ -83,11 +79,7 @@ h2.sub_headline {
     height: 100%;
 }
 
-
-.modal-popup {
-    padding: 10px;
-}
-
+/** Top Navigation **/
 .header_videohandbuch {
     padding: 2px 0 3px 20px;
     background-position: left center;
@@ -100,18 +92,18 @@ h2.sub_headline {
 }
 
 /** Accordion **/
-.accordionWrapper {
+#tl_contaoacademy .accordionWrapper {
     width: 100%;
 
 }
 
-.accordionItem {
+#tl_contaoacademy .accordionItem {
     display: block;
     width: 100%;
     box-sizing: border-box;
 }
 
-.accordionItemHeading {
+#tl_contaoacademy .accordionItemHeading {
     background: #0f1c26;
     color: #fff;
     display: block;
@@ -121,18 +113,18 @@ h2.sub_headline {
     margin-bottom: 0;
 }
 
-.close .accordionItemContent {
+#tl_contaoacademy .close .accordionItemContent {
     height: 0px;
     transition: height 0.4s ease-out;
     transform: scaleY(0);
     display: block;
 }
 
-.close .accordionItemHeading:hover {
+#tl_contaoacademy .close .accordionItemHeading:hover {
     background-color: #f47c00;
 }
 
-.open .accordionItemContent {
+#tl_contaoacademy .open .accordionItemContent {
     padding: 0.75em;
     background-color: #fff;
     border: 1px solid #d0d0d2;
@@ -145,7 +137,7 @@ h2.sub_headline {
     box-sizing: border-box;
 }
 
-.open .accordionItemHeading {
+#tl_contaoacademy .open .accordionItemHeading {
     margin: 0px;
     background-color: #f47c00;
     color: #fff;
